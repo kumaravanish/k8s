@@ -4,7 +4,7 @@
 * Understanding of K8s Pod Security Policies (PSP)
 * 10 minutes to spare.
 
-## Memories bring back memories.
+## Quick refresh of the PSP - memories bring back memories
 ![In Memories to be soon](psp.png)
 
 Kubernetes 1.21 started the deprecation process for PodSecurityPolicy.The current plan is to remove PSP from Kubernetes in the 1.25 release.
