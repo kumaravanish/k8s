@@ -1,1 +1,1 @@
-# Kubernetes projects and learnings.
+# Kubernetes
