@@ -1,1 +1,1 @@
-# k8s
+# Kuberenetes projects and learnings.
