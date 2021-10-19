@@ -4,12 +4,15 @@
 * Understanding of K8s Pod Security Policies (PSP)
 * 10 minutes to spare.
 
-## Introduction
+## Memories bring back memories.
+![In Memories to be soon](psp.png)
 
 Kubernetes 1.21 started the deprecation process for PodSecurityPolicy.The current plan is to remove PSP from Kubernetes in the 1.25 release.
 But, what?? went so wrong that a feature, which was introduced way back in v1.3 and used by many despite being in beta is set to be replaced.
 We will talk about to the replacement options later (very soon) but its worth understanding the pain points first. There is a saying “A Problem Well Stated is Half Solved”.
 So, following are some of the well discussed reasons in CNCF. Offcourse i am no expert to list all the downsides here.
+
+
 
 ## Problem 1: Flawed Authorisation Model
 
