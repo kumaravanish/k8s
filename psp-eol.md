@@ -2,7 +2,7 @@
 
 ## Prerequisites:
 * Understanding of K8s Pod Security Policies (PSP)
-* 10 minutes to spare.
+* 5-10 minutes to spare.
 
 ## Quick refresh of the PSP - memories bring back memories
 ![In Memories to be soon](psp.png)
@@ -29,7 +29,7 @@ So, following are some of the well discussed reasons in CNCF. Offcourse i am no 
 ## Problem 3: Inconsistent Unbounded API.
 
 * Two or more policies to a single user/service/pod can be assigned which often results in privileges esclations.
-* Weak prioritisation model which is based on alphabetical order. (Sometime apiserver updates results in unexpected results)
+* Weak prioritisation model which is based on alphabetical order. (Sometimes order of policy update in apiserver/etcd endup in unexpected results)
 * Many niche usecase requests not supported. Example: No provision to have a policy based labels,scheduling,fine grained volume controls etc.
 * Needs understanding of linux security primitives. Example Capabilities.
 * Lastly API grown organically with lots of inconsistency which will be difficult to maintain.
